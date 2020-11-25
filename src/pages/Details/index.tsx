@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 
 import { Container } from './styles';
 
-const Home: React.FC = () => (
+const Details: React.FC = () => (
   <Container>
-    <h1>Home</h1>
-    <Link to="details">Go to Details</Link>
+    <h1>Details</h1>
+    <Link to="/">Go to Home</Link>
   </Container>
 );
 
-export default Home;
+export default Details;
